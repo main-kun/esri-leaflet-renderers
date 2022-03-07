@@ -1,6 +1,6 @@
 import packageInfo from '../package.json'
 
-const version = packageInfo.version;
+var version = packageInfo.version;
 export { version as VERSION };
 
 export { Renderer } from './Renderers/Renderer';
